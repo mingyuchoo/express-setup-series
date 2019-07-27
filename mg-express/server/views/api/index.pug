@@ -1,0 +1,23 @@
+extends ../layouts/base
+
+block content
+  div.jumbotron
+    h1= title
+    p Welcome to #{title}
+  div.row
+    div.col-lg-12
+      h2 Retrieve all puppies
+      p
+        a.btn.btn-default(role='button', href="/api/puppies") Click!
+      h2 Retreive single puppy
+      p
+        a.btn.btn-default(role='button', href='/api/puppies/1') Click!
+      h2 Add a puppy
+      p
+        a.btn.btn-default(role='button', href='/api/puppies') Click!
+      h2 Update a puppy
+      p
+        a.btn.btn-default(role='button', href='/api/puppies/1') Click!
+      h2 Delete a puppy
+      p
+        a.btn.btn-default(role='button', href='/api/puppies/1') Click!
