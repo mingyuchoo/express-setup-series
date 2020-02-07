@@ -23,15 +23,15 @@
     "start": "npm run build  && DEBUG=express:* babel-node ./server/bin/www"
   },
   "dependencies": {
-    "bluebird": ">=3.5.5",
+    "bluebird": ">=3.7.2",
     "body-parser": ">=1.19.0",
-    "connect-redis": ">=4.0.0",
+    "connect-redis": ">=4.0.4",
     "cookie-parser": ">=1.4.4",
     "debug": ">=4.1.1",
     "express": ">=4.17.1",
-    "express-session": ">=1.16.2",
+    "express-session": ">=1.17.0",
     "morgan": ">=1.9.1",
-    "pg-promise": ">=9.1.1",
+    "pg-promise": ">=10.4.2",
     "pug": ">=2.0.4",
     "serve-favicon": ">=2.5.0"
   },
@@ -42,11 +42,11 @@
     "babel-preset-es2015": ">=6.24.1",
     "babel-preset-react": ">=6.24.1",
     "babel-preset-stage-0": ">=6.24.1",
-    "eslint": ">=6.2.2",
-    "eslint-plugin-react": ">=7.14.3",
-    "rimraf": ">=3.0.0",
-    "webpack": ">=4.39.3",
-    "webpack-dev-middleware": ">=3.7.0",
+    "eslint": ">=6.8.0",
+    "eslint-plugin-react": ">=7.18.3",
+    "rimraf": ">=3.0.1",
+    "webpack": ">=4.41.5",
+    "webpack-dev-middleware": ">=3.7.2",
     "webpack-hot-middleware": ">=2.25.0"
   }
 }
