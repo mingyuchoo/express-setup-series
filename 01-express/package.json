@@ -2,20 +2,7 @@
   "name": "01-express",
   "version": "0.0.1",
   "description": "",
-  "homepage": "https://github.com/mingyuchoo/mg-express",
   "author": "mingyuchoo",
-  "engines": {
-    "node": "6.4.0",
-    "npm": "3.10.6"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mingyuchoo/mg-express.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mingyuchoo/mg-express/issues"
-  },
   "scripts": {
     "clean": "rimraf ./client/dist",
     "lint": "eslint client",
@@ -32,7 +19,7 @@
     "express-session": ">=1.17.1",
     "morgan": ">=1.10.0",
     "pg-promise": ">=10.5.6",
-    "pug": ">=2.0.4",
+    "pug": ">=3.0.0",
     "serve-favicon": ">=2.5.0"
   },
   "devDependencies": {
@@ -42,7 +29,7 @@
     "babel-preset-es2015": ">=6.24.1",
     "babel-preset-react": ">=6.24.1",
     "babel-preset-stage-0": ">=6.24.1",
-    "eslint": ">=7.1.0",
+    "eslint": ">=7.2.0",
     "eslint-plugin-react": ">=7.20.0",
     "rimraf": ">=3.0.2",
     "webpack": ">=4.43.0",
