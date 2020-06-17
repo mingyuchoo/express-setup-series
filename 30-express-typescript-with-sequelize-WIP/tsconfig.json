@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
-    "types": ["node", "express", "mocha"],
+    "types": [
+      "bluebird",
+      "express",
+      "mocha",
+      "node",
+      "sequelize"
+    ],
     "target": "es6",
     "lib": [
       "esnext"
@@ -17,7 +23,9 @@
     "isolatedModules": true,
     "noImplicitAny": true,
     "outDir": "dist",
-    "sourceMap": true
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": [
     "src/**/*"
