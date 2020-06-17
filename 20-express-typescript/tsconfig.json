@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "types": ["node"],
+    "types": ["node", "express"],
     "target": "es6",
     "lib": [
       "esnext"
@@ -15,11 +15,14 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "sourceMap": true
   },
   "include": [
     "src/**/*"
   ],
   "exclude": [
+    "node_modules"
   ]
 }
